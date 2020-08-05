@@ -1,0 +1,4 @@
+com\ConsumerApplication.class
+com\client\UserClient.class
+com\controller\UserController.class
+com\bean\User.class
