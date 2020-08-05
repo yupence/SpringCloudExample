@@ -18,8 +18,8 @@ public class  UserController {
 
 
     @RequestMapping("{id}")
-    public String queryById(@PathVariable Long id){
+    public User queryById(@PathVariable Long id){
         User user = userClient.findUser(id);
-        return user.toString();
+        return user;
     }
 }

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
+        <module name="zuul" />
         <module name="provider" />
         <module name="eureka" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="eureka" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="springcloud3" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>
